@@ -1,0 +1,11 @@
+Model Information:
+* title:	RTJ4D Wireframe with Glass Orb
+* source:	https://sketchfab.com/3d-models/rtj4d-wireframe-with-glass-orb-ba9aedd1b95347a39266e6f9882b0fd0
+* author:	andrew (https://sketchfab.com/andrewBlenderProjects)
+
+Model License:
+* license type:	CC-BY-NC-SA-4.0 (http://creativecommons.org/licenses/by-nc-sa/4.0/)
+* requirements:	Author must be credited. No commercial use. Modified versions must have the same license.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "RTJ4D Wireframe with Glass Orb" (https://sketchfab.com/3d-models/rtj4d-wireframe-with-glass-orb-ba9aedd1b95347a39266e6f9882b0fd0) by andrew (https://sketchfab.com/andrewBlenderProjects) licensed under CC-BY-NC-SA-4.0 (http://creativecommons.org/licenses/by-nc-sa/4.0/)
