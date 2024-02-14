@@ -25,12 +25,12 @@ jobs:
            with:
               node-version: ${{ matrix.node-version }}
               cache: 'npm'
+         - run: npm ci
+         - run: npm run build
            env:
               VITE_APP_EMAILJS_PUBLIC_KEY: ${{ secrets.VITE_APP_EMAILJS_PUBLIC_KEY }}
               VITE_APP_EMAILJS_SERVICE_ID: ${{ secrets.VITE_APP_EMAILJS_SERVICE_ID }}
               VITE_APP_EMAILJS_TEMPLATE_ID: ${{ secrets.VITE_APP_EMAILJS_TEMPLATE_ID }}
-         - run: npm ci
-         - run: npm run build
          - name: Archive production artifacts
            uses: actions/upload-artifact@v4
            with:
