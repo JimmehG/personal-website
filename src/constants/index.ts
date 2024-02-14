@@ -11,9 +11,8 @@ import {
    git,
    figma,
    infotrack,
-   carrent,
-   jobit,
-   tripguide,
+   vbreatheShot,
+   infotrackShot,
    threejs,
    jira,
    angular,
@@ -21,6 +20,7 @@ import {
    fourmation,
    vbreathe,
    mikecamara,
+   kennardsShot,
 } from '../assets';
 
 interface NavBarLinkProps {
@@ -170,67 +170,62 @@ const testimonials = [
 
 const projects = [
    {
-      name: 'Placeholder',
+      name: 'VBreathe/Enviroguard',
       description:
-         'Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.',
+         'An Android/iOS app allowing users to control their VBreathe or Enviroguard purifier devices. The purifiers would connect using the user\'s wireless network or straight to the app using Bluetooth. It was very rewarding allowing users to sign up and be able to control their devices from anywhere they had internet access. Using Figma also we were creating a new user experience for our partnership company Enviroguard.',
       tags: [
          {
-            name: 'react',
+            name: 'ionic',
             color: 'blue-text-gradient',
          },
          {
-            name: 'mongodb',
+            name: 'aws',
             color: 'green-text-gradient',
          },
          {
-            name: 'tailwind',
+            name: 'figma',
             color: 'pink-text-gradient',
          },
       ],
-      image: carrent,
+      image: vbreatheShot,
       link: 'https://github.com/',
    },
    {
-      name: 'Placeholder',
+      name: 'InfoTrack',
       description:
-         'Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.',
+         'Web application that enables users to search for property titles. Using automation it allows the users to obtain these titles and other documents for properties in one easy to use place.',
       tags: [
          {
-            name: 'react',
+            name: 'angular',
             color: 'blue-text-gradient',
          },
          {
-            name: 'restapi',
+            name: 'selenium',
             color: 'green-text-gradient',
          },
          {
-            name: 'scss',
+            name: 'postgresql',
             color: 'pink-text-gradient',
          },
       ],
-      image: jobit,
+      image: infotrackShot,
       link: 'https://github.com/',
    },
    {
-      name: 'Placeholder',
+      name: 'Kennards Self Storage',
       description:
-         'A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.',
+         "A legacy system requiring expertise with server systems, SQL database queries and expert problem solving. I'm proud to have worked on and maintained this system.",
       tags: [
          {
-            name: 'nextjs',
+            name: 'visual-basic',
             color: 'blue-text-gradient',
          },
          {
-            name: 'supabase',
+            name: 'sql',
             color: 'green-text-gradient',
          },
-         {
-            name: 'css',
-            color: 'pink-text-gradient',
-         },
       ],
-      image: tripguide,
-      link: 'https://github.com/',
+      image: kennardsShot,
    },
 ];
 

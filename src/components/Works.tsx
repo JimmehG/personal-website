@@ -16,7 +16,7 @@ interface ProjectProps {
          color: string;
       }[];
       image: string;
-      link: string;
+      link?: string;
    };
 }
 
@@ -24,16 +24,11 @@ const ProjectCard: React.FC<ProjectProps> = ({ index, project }) => {
    return (
       <motion.div variants={fadeIn('up', 'spring', index * 0.5, 0.75)}>
          <Tilt className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full">
-            <div className="relative w-full h-[230px]">
+            <div
+               onClick={() => window.open(project.link, '_blank')}
+               className="relative w-full h-[230px] cursor-pointer"
+            >
                <img src={project.image} alt="project_image" className="w-full h-full object-cover rounded-2xl" />
-
-               <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
-                  <div
-                     onClick={() => window.open(project.link, '_blank')}
-                     className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
-                  >
-                  </div>
-               </div>
             </div>
 
             <div className="mt-5">

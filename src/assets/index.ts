@@ -28,9 +28,9 @@ import infotrack from './company/infotrack.png';
 import fourmation from './company/4mation.svg';
 import vbreathe from './company/vbreathe.png';
 
-import carrent from './carrent.png';
-import jobit from './jobit.png';
-import tripguide from './tripguide.png';
+import infotrackShot from './infotrackshot.png';
+import vbreatheShot from './vbreatheshot.png';
+import kennardsShot from './kennardsshot.jpg';
 
 import mikecamara from './mikecamara.jpg';
 
@@ -56,9 +56,6 @@ export {
    tailwind,
    typescript,
    threejs,
-   carrent,
-   jobit,
-   tripguide,
    jira,
    angular,
    csharp,
@@ -66,4 +63,7 @@ export {
    fourmation,
    vbreathe,
    mikecamara,
+   infotrackShot,
+   vbreatheShot,
+   kennardsShot,
 };
