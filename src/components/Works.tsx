@@ -2,7 +2,6 @@ import Tilt from 'react-parallax-tilt';
 import { motion } from 'framer-motion';
 
 import { styles } from '../styles';
-import { github } from '../assets';
 import { SectionWrapper } from '../hoc';
 import { projects } from '../constants';
 import { fadeIn, textVariant } from '../utils/motion';
@@ -17,7 +16,7 @@ interface ProjectProps {
          color: string;
       }[];
       image: string;
-      source_code_link: string;
+      link: string;
    };
 }
 
@@ -30,10 +29,9 @@ const ProjectCard: React.FC<ProjectProps> = ({ index, project }) => {
 
                <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
                   <div
-                     onClick={() => window.open(project.source_code_link, '_blank')}
+                     onClick={() => window.open(project.link, '_blank')}
                      className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
                   >
-                     <img src={github} alt="source code" className="w-1/2 h-1/2 object-contain" />
                   </div>
                </div>
             </div>

@@ -19,10 +19,17 @@ import {
    angular,
    csharp,
    fourmation,
-   vbreathe
+   vbreathe,
+   mikecamara,
 } from '../assets';
 
-export const navLinks = [
+interface NavBarLinkProps {
+   id: string;
+   title: string;
+   link?: string;
+}
+
+export const navLinks: NavBarLinkProps[] = [
    {
       id: 'about',
       title: 'About',
@@ -34,6 +41,11 @@ export const navLinks = [
    {
       id: 'contact',
       title: 'Contact',
+   },
+   {
+      id: 'gitHub',
+      title: 'GitHub',
+      link: 'https://github.com/JimmehG/personal-website',
    },
 ];
 
@@ -127,7 +139,7 @@ const experiences = [
          'Worked in many varied working environments and was able to quickly switch up my skills to adjust.',
          'Able to flex my communication skills by dealing directly with the clients.',
          'Managing my work using sprints and different project management tools such as JIRA.',
-         'Utilising a wide variety of tech to suit the client\'s needs or their ongoing project\'s needs.',
+         "Utilising a wide variety of tech to suit the client's needs or their ongoing project's needs.",
       ],
    },
    {
@@ -148,25 +160,11 @@ const experiences = [
 const testimonials = [
    {
       testimonial:
-         'Placeholder',
-      name: 'Sara Lee',
-      designation: 'CFO',
-      company: 'Acme Co',
-      image: 'https://randomuser.me/api/portraits/women/2.jpg',
-   },
-   {
-      testimonial: "Placeholder",
-      name: 'Chris Brown',
-      designation: 'COO',
-      company: 'DEF Corp',
-      image: 'https://randomuser.me/api/portraits/men/10.jpg',
-   },
-   {
-      testimonial: "Placeholder",
-      name: 'Lisa Wang',
-      designation: 'CTO',
-      company: '456 Enterprises',
-      image: 'https://randomuser.me/api/portraits/women/8.jpg',
+         'James is a beacon of calm in the often tumultuous sea of software development deadlines and challenges. His ability to absorb pressure and maintain an even keel has not only steered our projects to safe harbor but also inspired our team to adopt a similar demeanor. His communication skills are outstanding. James can break down complex technical concepts into digestible, understandable pieces, making collaboration with cross-functional teams seamless and practical.',
+      name: 'Mike Camara',
+      designation: 'Senior Software Engineer',
+      company: 'VBreathe',
+      image: mikecamara,
    },
 ];
 
@@ -190,7 +188,7 @@ const projects = [
          },
       ],
       image: carrent,
-      source_code_link: 'https://github.com/',
+      link: 'https://github.com/',
    },
    {
       name: 'Placeholder',
@@ -211,7 +209,7 @@ const projects = [
          },
       ],
       image: jobit,
-      source_code_link: 'https://github.com/',
+      link: 'https://github.com/',
    },
    {
       name: 'Placeholder',
@@ -232,7 +230,7 @@ const projects = [
          },
       ],
       image: tripguide,
-      source_code_link: 'https://github.com/',
+      link: 'https://github.com/',
    },
 ];
 
