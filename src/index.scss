@@ -13,8 +13,8 @@
    color-scheme: dark;
 }
 
-canvas {
-   touch-action: pan-y;
+.important-touch-pan-y {
+   touch-action: pan-y !important;
 }
 
 .hash-span {
