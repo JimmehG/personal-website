@@ -1,6 +1,5 @@
 import { BrowserRouter } from 'react-router-dom';
-import { About, Contact, Experience, Feedback, Hero, Navbar, Tech, Works, StarsCanvas } from './components';
-import { detectMobile } from './utils/detectmobilebrowser.js';
+import { About, Contact, Experience, Feedback, Hero, Navbar, Works, StarsCanvas } from './components';
 
 function App() {
    return (
@@ -12,7 +11,6 @@ function App() {
             </div>
             <About />
             <Experience />
-            {detectMobile() ? '' : <Tech />}
             <Works />
             <Feedback />
             <div className="relative z-0">
