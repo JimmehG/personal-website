@@ -40,9 +40,11 @@ const About = SectionWrapper(() => {
             className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
          >
             Team leader who loves to find the best approach. Have me in your team and I'll often present new ideas for
-            process improvement or a new tech that can fit our latest issues. <br /><br />
+            process improvement or a new tech that can fit our latest issues. <br />
+            <br />
             I believe it's important to utilise the different skills of my team and so I value understanding how my
-            teammates work and what makes them give the best results. <br /><br />
+            teammates work and what makes them give the best results. <br />
+            <br />
             Also when developing I tend towards front end development as I have a strong sense for how users would use
             our app and have begun working in Figma as well as working closely with designers to improve their UX and UI
             designs.

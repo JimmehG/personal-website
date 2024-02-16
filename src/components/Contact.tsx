@@ -72,8 +72,8 @@ const Contact = SectionWrapper(() => {
 
             <div className="w-full flex">
                <p className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]">
-                  Please feel free to use the form below to send me an email or email me directly with any
-                  questions or Job opportunities at{' '}
+                  Please feel free to use the form below to send me an email or email me directly with any questions or
+                  Job opportunities at{' '}
                   <a className="text-accent" href="mailto:j.gronowski@gmail.com" target="_blank">
                      j.gronowski@gmail.com
                   </a>
@@ -86,7 +86,7 @@ const Contact = SectionWrapper(() => {
                   <input
                      type="text"
                      name="name"
-                     autoComplete='name'
+                     autoComplete="name"
                      value={form.name}
                      onChange={handleChange}
                      className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
@@ -97,7 +97,7 @@ const Contact = SectionWrapper(() => {
                   <input
                      type="email"
                      name="email"
-                     autoComplete='email'
+                     autoComplete="email"
                      value={form.email}
                      onChange={handleChange}
                      className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"

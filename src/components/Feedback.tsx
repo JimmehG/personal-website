@@ -13,14 +13,11 @@ interface FeedbackProps {
       designation: string;
       company: string;
       image: string;
-  }
+   };
 }
 
 const FeedbackCard: React.FC<FeedbackProps> = ({ index, testimonial }) => (
-   <motion.div
-      variants={fadeIn('', 'spring', index * 0.5, 0.75)}
-      className="bg-black-200 p-10 rounded-3xl w-full"
-   >
+   <motion.div variants={fadeIn('', 'spring', index * 0.5, 0.75)} className="bg-black-200 p-10 rounded-3xl w-full">
       <p className="text-white font-black text-[48px]">"</p>
 
       <div className="mt-1">
@@ -36,7 +33,11 @@ const FeedbackCard: React.FC<FeedbackProps> = ({ index, testimonial }) => (
                </p>
             </div>
 
-            <img src={testimonial.image} alt={`feedback_by-${testimonial.name}`} className="w-10 h-10 rounded-full object-cover" />
+            <img
+               src={testimonial.image}
+               alt={`feedback_by-${testimonial.name}`}
+               className="w-10 h-10 rounded-full object-cover"
+            />
          </div>
       </div>
    </motion.div>

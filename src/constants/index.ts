@@ -172,7 +172,7 @@ const projects = [
    {
       name: 'VBreathe/Enviroguard',
       description:
-         'An Android/iOS app allowing users to control their VBreathe or Enviroguard purifier devices. The purifiers would connect using the user\'s wireless network or straight to the app using Bluetooth. It was very rewarding allowing users to sign up and be able to control their devices from anywhere they had internet access. Using Figma also we were creating a new user experience for our partnership company Enviroguard.',
+         "An Android/iOS app allowing users to control their VBreathe or Enviroguard purifier devices. The purifiers would connect using the user's wireless network or straight to the app using Bluetooth. It was very rewarding allowing users to sign up and be able to control their devices from anywhere they had internet access. Using Figma also we were creating a new user experience for our partnership company Enviroguard.",
       tags: [
          {
             name: 'ionic',
