@@ -49,6 +49,7 @@ const ComputersCanvas = () => {
 
    return (
       <Canvas
+         className='!touch-pan-y'
          frameloop="demand"
          shadows
          dpr={[1, 2]}

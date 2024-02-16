@@ -28,7 +28,7 @@ const Stars = (props: any) => {
 const StarsCanvas = () => {
    return (
       <div className="w-full h-auto absolute inset-0 z-[-1]">
-         <Canvas camera={{ position: [0, 0, 1] }}>
+         <Canvas className="!touch-pan-y" camera={{ position: [0, 0, 1] }}>
             <Suspense fallback={null}>
                <Stars />
             </Suspense>

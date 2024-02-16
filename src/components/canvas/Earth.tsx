@@ -13,6 +13,7 @@ const Earth = () => {
 const EarthCanvas = () => {
    return (
       <Canvas
+         className="!touch-pan-y"
          shadows
          frameloop="demand"
          dpr={[1, 2]}

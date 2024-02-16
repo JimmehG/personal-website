@@ -30,7 +30,7 @@ interface BallCanvasProps {
 
 const BallCanvas: React.FC<BallCanvasProps> = ({ icon }) => {
    return (
-      <Canvas frameloop="demand" dpr={[1, 2]} gl={{ preserveDrawingBuffer: true }}>
+      <Canvas className="!touch-pan-y" frameloop="demand" dpr={[1, 2]} gl={{ preserveDrawingBuffer: true }}>
          <Suspense fallback={<CanvasLoader />}>
             <OrbitControls enableZoom={false} />
             <Ball imgUrl={icon} />
